@@ -1,0 +1,24 @@
+0000.004 () Opened log file at time: Sun, 28 Aug 2022 01:15:55 +0000 on http://cecabi.org
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.18 WP: 6.0.1 PHP: 8.1.8 (litespeed, Linux p3plzcpnl454193.prod.phx3.secureserver.net 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 5.7.38-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.8M | 12M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.046 () Free space on disk containing Updraft's temporary directory: 723255.5 MB
+0000.087 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Sun, 28 Aug 2022 01:15:58 +0000 on http://cecabi.org
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.18 WP: 6.0.1 PHP: 8.1.8 (litespeed, Linux p3plzcpnl454193.prod.phx3.secureserver.net 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 5.7.38-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.2M | 12M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.050 () Free space on disk containing Updraft's temporary directory: 723255.4 MB
+0000.050 () Ensuring WP_Filesystem is setup for a restore
+0000.051 () WP_Filesystem is setup and ready for a restore
+0000.055 () Restore job started. Entities to restore: plugins. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.055 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.056 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.057 () Entity: plugins
+0000.057 () restore_backup(backup_file=backup_2022-08-27-1334_CECABI_15a865f06024-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:49:"/home/i7o9wb063jti/public_html/wp-content/plugins";s:11:"description";s:10:"Extensions";s:20:"singular_description";s:6:"Plugin";}, last_one=1)
+0000.057 () Décompression de la sauvegarde… (backup_2022-08-27-1334_CECABI_15a865f06024-plugins.zip, 0 MB)
+0000.060 () Unzipping backup_2022-08-27-1334_CECABI_15a865f06024-plugins.zip to /home/i7o9wb063jti/public_html/wp-content/upgrade/b9ee1c2c/ using UpdraftPlus_PclZip, starting index 0
+0000.072 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.072 () Moving old data: can potentially use wp_filesystem method / -old
+0000.072 () Mise de côté des anciennes données…
+0000.118 () Top-level entities being moved: updraftplus, hello.php, akismet, updraftcentral, index.php
+0000.119 () Nettoyage…
+0000.122 () Plugin path updraftplus/updraftplus.php not found: de-activating.
+0000.128 () Restore successful!
+0000.128 () Restore successful

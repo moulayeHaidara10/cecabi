@@ -1,0 +1,15 @@
+0000.005 () Opened log file at time: Sun, 28 Aug 2022 01:18:57 +0000 on http://cecabi.org
+0000.006 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.18 WP: 6.0.1 PHP: 8.1.8 (litespeed, Linux p3plzcpnl454193.prod.phx3.secureserver.net 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 5.7.38-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 11.3M | 14M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.056 () Free space on disk containing Updraft's temporary directory: 723189.1 MB
+0000.080 () Restore setup, now closing connection and starting restore over AJAX.
+0000.004 () Opened log file at time: Sun, 28 Aug 2022 01:18:58 +0000 on http://cecabi.org
+0000.005 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.18 WP: 6.0.1 PHP: 8.1.8 (litespeed, Linux p3plzcpnl454193.prod.phx3.secureserver.net 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 5.7.38-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 10.9M | 12M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.044 () Free space on disk containing Updraft's temporary directory: 723189 MB
+0000.045 () Ensuring WP_Filesystem is setup for a restore
+0000.045 () WP_Filesystem is setup and ready for a restore
+0000.051 () Restore job started. Entities to restore: plugins. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.051 () PHP event: code E_WARNING: mkdir(): File exists (line 545, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.051 () Error message: Des dossiers existants non supprimés d’une restauration précédente existent (veuillez utiliser le bouton « Supprimer les anciens dossiers » pour les supprimer avant de recommencer) : /home/i7o9wb063jti/public_html/wp-content/updraft/plugins-old
+0000.054 () Restore failed...
+0000.054 () Error message: Des dossiers existants non supprimés d’une restauration précédente existent (veuillez utiliser le bouton « Supprimer les anciens dossiers » pour les supprimer avant de recommencer) : /home/i7o9wb063jti/public_html/wp-content/updraft/plugins-old
+0000.054 () Restore failed

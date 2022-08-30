@@ -1,0 +1,276 @@
+0000.000 (0) Opened log file at time: Sun, 28 Aug 2022 01:26:49 +0000 on http://cecabi.org
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.18 WP: 6.0.1 PHP: 8.1.8 (litespeed, Linux p3plzcpnl454193.prod.phx3.secureserver.net 2.6.32-954.3.5.lve1.4.86.el6.x86_64 #1 SMP Tue Aug 31 17:08:39 UTC 2021 x86_64) MySQL: 5.7.38-cll-lve (max packet size=268435456) WPLANG: fr_FR Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 7.9M | 10M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: Y LANG:  ZipArchive::addFile: N
+0000.050 (0) Free space on disk containing Updraft's temporary directory: 723197.2 MB
+0000.054 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.055 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.058 (0) Semaphore (fd, wp_options) being initialised
+0000.060 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.063 (0) Set semaphore last lock (fd) time to 2022-08-28 01:26:49
+0000.063 (0) Semaphore lock (fd) complete
+0000.067 (0) Backup run: resumption=0, nonce=842f1738edb9, file_nonce=842f1738edb9 begun at=1661650009 (0s ago), job type=backup
+0000.068 (0) Scheduling a resumption (1) after 300 seconds (1661650309) in case this run gets aborted
+0000.089 (0) Checking if we have a zip executable available
+0000.091 (0) Testing: /usr/bin/zip
+0000.096 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.097 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.098 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.099 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.104 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.105 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.106 (0) Working binary zip found: /usr/bin/zip
+0000.107 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.108 (0) Creation of backups of directories: beginning
+0000.110 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.177 (0) Total entities for the zip file: 305 directories, 1965 files (0 skipped as non-modified), 27.2 MB
+0000.179 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.181 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.183 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.185 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.187 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.189 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.190 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.192 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.194 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.196 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.196 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (7.8 MB, 1965 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.520 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: size is now: 2.30 MB
+0000.524 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1100 files added (on-disk size: 2395.8 KB)
+0000.525 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1200 files added (on-disk size: 2395.8 KB)
+0000.527 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1300 files added (on-disk size: 2395.8 KB)
+0000.529 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1400 files added (on-disk size: 2395.8 KB)
+0000.531 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1500 files added (on-disk size: 2395.8 KB)
+0000.532 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1600 files added (on-disk size: 2395.8 KB)
+0000.534 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1700 files added (on-disk size: 2395.8 KB)
+0000.536 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1800 files added (on-disk size: 2395.8 KB)
+0000.537 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: 1900 files added (on-disk size: 2395.8 KB)
+0001.380 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.tmp: size is now: 8.30 MB
+0001.401 (0) Creating zip file manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.list-temp.tmp)
+0001.406 (0) Successfully created zip file manifest (size: 156608)
+0001.489 (0) Created plugins zip (0) - 8462.4 KB in 1.3 s (6318.5 KB/s) (sha1: 8a30f2766a202c3a4730e8728a7dd81eb2eebe2e, sha256: 0eb2b7962e2d52c8fa3675d81addd71d5b2b966f2a41f67f859d109813cfbb28)
+0001.490 (0) Deleting old temporary file: log.f88d57cef090-browser.txt
+0001.490 (0) Deleting old temporary file: log.ab3c604ca819-browser.txt
+0001.494 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0001.494 (0) No remote despatch: user chose no remote backup service
+0001.495 (0) Recording as successfully uploaded: backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip
+0001.497 (0) Deleting zip manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip.list.tmp)
+0001.498 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0001.500 (0) Number of backup sets in history: 3; groups (db): 1
+0001.500 (0) Examining (for databases) backup set with group_id=0, nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0001.501 (0) Examining (for databases) backup set with group_id=0, nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0001.501 (0) Examining (for databases) backup set with group_id=0, nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0001.501 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0001.501 (0) Number of backup sets in history: 3; groups (files): 1
+0001.502 (0) Examining (for files) backup set with nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0001.502 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.503 (0) Examining (for files) backup set with nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0001.503 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0001.503 (0) Examining (for files) backup set with nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0001.503 (0) plugins: over retain limit (2); will delete this file entity
+0001.503 (0) Delete file: backup_2022-05-21-2225_capitalprocess_fb852ed9a414-plugins.zip, service=none
+0001.504 (0) Deleting local copy (backup_2022-05-21-2225_capitalprocess_fb852ed9a414-plugins.zip)
+0001.512 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0001.512 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0001.517 (0) Beginning creation of dump of themes (split every: 400 MB)
+0001.582 (0) Total entities for the zip file: 217 directories, 1171 files (0 skipped as non-modified), 32.3 MB
+0001.586 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.588 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.590 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.591 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.594 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.597 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.599 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.601 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.604 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.606 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1171 files batched, 905 (905) added so far); re-opening (prior size: 0 KB)
+0002.518 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: size is now: 12.40 MB
+0002.520 (0) A useful amount of data was added after this amount of zip processing: 1.2 s (normalised: 1.2 s, rate: 22178.9 KB/s)
+0002.522 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.154974937439, normalised_time=1.15425097677, max_time=2.5207331180573, data points known=1, old_max_bytes=26214400, new_max_bytes=136267071)
+0002.524 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 1000 files added (on-disk size: 12690.5 KB)
+0002.526 (0) Zip: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: 1100 files added (on-disk size: 12690.5 KB)
+0003.672 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.tmp: size is now: 16.30 MB
+0003.688 (0) Creating zip file manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.list-temp.tmp)
+0003.693 (0) Successfully created zip file manifest (size: 82443)
+0003.874 (0) Created themes zip (0) - 16682.5 KB in 2.3 s (7213.2 KB/s) (sha1: 2554c5d46b423c018b357441077ec9c25808fbec, sha256: 46bbf5bd72be0e9270eb81a72cbe9fa9cdc0d625f4b0f7a17b60940457d71670)
+0003.877 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0003.878 (0) No remote despatch: user chose no remote backup service
+0003.878 (0) Recording as successfully uploaded: backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip
+0003.879 (0) Deleting zip manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip.list.tmp)
+0003.881 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.882 (0) Number of backup sets in history: 3; groups (db): 1
+0003.882 (0) Examining (for databases) backup set with group_id=0, nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0003.882 (0) Examining (for databases) backup set with group_id=0, nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0003.882 (0) Examining (for databases) backup set with group_id=0, nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0003.882 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0003.882 (0) Number of backup sets in history: 3; groups (files): 1
+0003.883 (0) Examining (for files) backup set with nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0003.883 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0003.883 (0) Examining (for files) backup set with nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0003.883 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0003.883 (0) Examining (for files) backup set with nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0003.883 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0003.884 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0003.887 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0003.887 (0) Looking for candidates to backup in: /home/i7o9wb063jti/public_html/wp-content/uploads
+0003.888 (0) finding files: 2022: adding to list (1)
+0003.888 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0003.937 (0) Total entities for the zip file: 2 directories, 0 files (0 skipped as non-modified), 0 MB
+0003.945 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-uploads.zip.tmp: size is now: 0.00 MB
+0003.948 (0) Did not find any files in the zip: backup_2022-08-28-0126_CECABI_842f1738edb9-uploads.zip.tmp
+0003.950 (0) Created uploads zip (0) - 0.3 KB in 0 s (21.3 KB/s) (sha1: 69ec37da5face60b0ff21a5748d15531518e751d, sha256: 8d9141521c5ce3d465f47907da79a93e6d419782b7a28f1dc3edfa64e02f8162)
+0003.952 (0) Beginning backup of other directories found in the content directory (index: 0)
+0003.952 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0003.953 (0) Looking for candidates to backup in: /home/i7o9wb063jti/public_html/wp-content
+0003.953 (0) finding files: themes: skipping: this is the themes directory
+0003.954 (0) finding files: plugins-old: adding to list (1)
+0003.954 (0) finding files: plugins: skipping: this is the plugins directory
+0003.955 (0) finding files: updraft: skipping: this is the updraft directory
+0003.955 (0) finding files: upgrade: skipping: excluded by options
+0003.956 (0) finding files: uploads: skipping: this is the uploads directory
+0003.956 (0) finding files: index.php: adding to list (2)
+0003.957 (0) finding files: languages: adding to list (3)
+0004.009 (0) Total entities for the zip file: 4 directories, 82 files (0 skipped as non-modified), 3.7 MB
+0004.194 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-others.zip.tmp: size is now: 1.00 MB
+0004.198 (0) Creating zip file manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-others.zip.list-temp.tmp)
+0004.198 (0) Successfully created zip file manifest (size: 4870)
+0004.212 (0) Created others zip (0) - 1074.8 KB in 0.2 s (5227.5 KB/s) (sha1: 34312bfa098c7f9bb964d8fe6e8756fc6e2d7afb, sha256: 5d8922f1b0a3ebc38ee2253c897d381d3cf0f9b8ce68bbd1ffe7449b9b331d8b)
+0004.218 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.218 (0) No remote despatch: user chose no remote backup service
+0004.219 (0) Recording as successfully uploaded: backup_2022-08-28-0126_CECABI_842f1738edb9-others.zip
+0004.220 (0) Deleting zip manifest (backup_2022-08-28-0126_CECABI_842f1738edb9-others.zip.list.tmp)
+0004.221 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.223 (0) Number of backup sets in history: 3; groups (db): 1
+0004.223 (0) Examining (for databases) backup set with group_id=0, nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0004.223 (0) Examining (for databases) backup set with group_id=0, nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0004.223 (0) Examining (for databases) backup set with group_id=0, nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0004.223 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.224 (0) Number of backup sets in history: 3; groups (files): 1
+0004.224 (0) Examining (for files) backup set with nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0004.224 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0004.225 (0) Examining (for files) backup set with nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0004.225 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0004.225 (0) Examining (for files) backup set with nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0004.225 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.225 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0004.230 (0) Saving backup status to database (elements: 8)
+0004.231 (0) Beginning creation of database dump (WordPress DB)
+0004.232 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0004.234 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0004.301 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1533 bytes total)
+0004.302 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0004.317 (0) Table wp_options: Total expected rows (via COUNT): 211
+0004.317 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.341 (0) Table wp_options: Rows added in this batch (next record: 341): 205 (uncompressed bytes in this segment=459208) in 0.03 seconds
+0004.355 (0) Table wp_options: finishing file(s) (2, 93.1 KB)
+0004.363 (0) Table wp_users: Total expected rows (via COUNT): 1
+0004.373 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.377 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1387) in 0.02 seconds
+0004.379 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0004.384 (0) Table wp_usermeta: Total expected rows (via COUNT): 18
+0004.385 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.386 (0) Table wp_usermeta: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1706) in 0.01 seconds
+0004.389 (0) Table wp_usermeta: finishing file(s) (2, 0.9 KB)
+0004.394 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0004.397 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0004.399 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0004.403 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0004.403 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.405 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2246) in 0.00 seconds
+0004.407 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0004.412 (0) Table wp_links: Total expected rows (via COUNT): 0
+0004.415 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.00 seconds
+0004.417 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0004.425 (0) Table wp_postmeta: Total expected rows (via COUNT): 2
+0004.426 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.428 (0) Table wp_postmeta: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=790) in 0.01 seconds
+0004.431 (0) Table wp_postmeta: finishing file(s) (2, 0.4 KB)
+0004.437 (0) Table wp_posts: Total expected rows (via COUNT): 4
+0004.438 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.440 (0) Table wp_posts: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=11011) in 0.01 seconds
+0004.444 (0) Table wp_posts: finishing file(s) (2, 3.4 KB)
+0004.448 (0) Table wp_term_relationships: Total expected rows (approximate): 0
+0004.450 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 1 (uncompressed bytes in this segment=702) in 0.00 seconds
+0004.452 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0004.458 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 1
+0004.459 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.462 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=926) in 0.01 seconds
+0004.465 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.4 KB)
+0004.475 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0004.477 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0004.480 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0004.486 (0) Table wp_terms: Total expected rows (via COUNT): 1
+0004.487 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0004.491 (0) Table wp_terms: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=731) in 0.01 seconds
+0004.493 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0004.494 (0) PHP event: code E_WARNING: filemtime(): stat failed for /home/i7o9wb063jti/public_html/wp-content/updraft/backup_2022-08-28-0126_CECABI_842f1738edb9-db.gz (line 1912, wp-content/plugins/updraftplus/backup.php)
+0004.496 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_options.table.tmpr342.gz (1/12/fopen): adding to final database dump
+0004.498 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0004.499 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0004.499 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0004.500 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_usermeta.table.tmpr19.gz (5/12/fopen): adding to final database dump
+0004.503 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0004.503 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0004.504 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0004.505 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0004.506 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0004.506 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0004.507 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0004.507 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_postmeta.table.tmpr3.gz (13/12/fopen): adding to final database dump
+0004.508 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0004.508 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_posts.table.tmpr5.gz (15/12/fopen): adding to final database dump
+0004.509 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0004.510 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0004.511 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0004.511 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_term_taxonomy.table.tmpr2.gz (19/12/fopen): adding to final database dump
+0004.512 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0004.512 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0004.513 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0004.514 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_terms.table.tmpr2.gz (23/12/fopen): adding to final database dump
+0004.514 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0004.532 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db.gz: finished writing out complete database file (102 KB)
+0004.540 (0) Total database tables backed up: 12 (backup_2022-08-28-0126_CECABI_842f1738edb9-db.gz, size: 104595, sha1: 3a9682de4f50d38d79cfdfaf708c36e46f327ee7, sha256: cb7f0a55ac203074f66a5d561c68dd38a46e9c0bfa3dcc892067a94383946a57)
+0004.543 (0) PHP event: code E_DEPRECATED: strlen(): Passing null to parameter #1 ($string) of type string is deprecated (line 2843, wp-content/plugins/updraftplus/backup.php)
+0004.545 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-plugins.zip: plugins: This file has already been successfully uploaded
+0004.546 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-themes.zip: themes: This file has already been successfully uploaded
+0004.547 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0004.548 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-others.zip: others: This file has already been successfully uploaded
+0004.548 (0) backup_2022-08-28-0126_CECABI_842f1738edb9-db.gz: db: This file has not yet been successfully uploaded: will queue
+0004.548 (0) Saving backup history. Total backup size: 25.7 MB
+0004.550 (0) Requesting upload of the files that have not yet been successfully uploaded (2)
+0004.553 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.554 (0) No remote despatch: user chose no remote backup service
+0004.554 (0) Recording as successfully uploaded: backup_2022-08-28-0126_CECABI_842f1738edb9-uploads.zip
+0004.556 (0) Recording as successfully uploaded: backup_2022-08-28-0126_CECABI_842f1738edb9-db.gz
+0004.559 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.560 (0) Number of backup sets in history: 4; groups (db): 1
+0004.560 (0) Examining (for databases) backup set with group_id=0, nonce=842f1738edb9, datestamp=1661650009 (Aug 28 2022 01:26:49)
+0004.560 (0) This backup set is the backup set just made, so will not be deleted.
+0004.560 (0) Examining (for databases) backup set with group_id=0, nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0004.560 (0) Examining (for databases) backup set with group_id=0, nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0004.560 (0) Examining (for databases) backup set with group_id=0, nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0004.560 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.561 (0) Number of backup sets in history: 4; groups (files): 1
+0004.561 (0) Examining (for files) backup set with nonce=842f1738edb9, datestamp=1661650009 (Aug 28 2022 01:26:49)
+0004.561 (0) This backup set is the backup set just made, so will not be deleted.
+0004.562 (0) This backup set is the backup set just made, so will not be deleted.
+0004.562 (0) This backup set is the backup set just made, so will not be deleted.
+0004.562 (0) This backup set is the backup set just made, so will not be deleted.
+0004.562 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0004.562 (0) Examining (for files) backup set with nonce=15a865f06024, datestamp=1661600040 (Aug 27 2022 11:34:00)
+0004.562 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0004.563 (0) Examining (for files) backup set with nonce=f5dfad58ae4f, datestamp=1661537880 (Aug 26 2022 18:18:00)
+0004.563 (0) plugins: over retain limit (2); will delete this file entity
+0004.563 (0) Delete file: backup_2022-08-26-2018_CECABI_f5dfad58ae4f-plugins.zip, service=none
+0004.563 (0) Deleting local copy (backup_2022-08-26-2018_CECABI_f5dfad58ae4f-plugins.zip)
+0004.564 (0) This backup set is now empty; will remove from history
+0004.565 (0) Corresponding log file (log.f5dfad58ae4f.txt) not found - must have already been deleted
+0004.565 (0) Examining (for files) backup set with nonce=fb852ed9a414, datestamp=1653164700 (May 21 2022 20:25:00)
+0004.565 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0004.566 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0004.568 (0) Resume backup (842f1738edb9, 0): finish run
+0004.570 (0) Decremented the semaphore (fd) by 1
+0004.572 (0) Semaphore (fd) unlocked
+0004.573 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0004.575 (0) The backup apparently succeeded and is now complete
+0004.576 (0) No email will/can be sent - the user has not configured an email address.
+0004.576 (0) La sauvegarde a apparemment réussi et est maintenant terminée
